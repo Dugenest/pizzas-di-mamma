@@ -1,0 +1,66 @@
+body {
+    margin: 0;
+    font-family: 'Merienda', cursive;
+}
+
+
+.containerheader {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100vw;
+    height: 100vh;
+    background-image: url(../img/pizza1.jpg);
+}
+
+.header {
+    display: flex;
+    height: 10vh;
+    width: 100vw;
+    justify-content: center;
+    align-items: center;
+}
+
+ul {
+    display: flex;
+    list-style-type: none;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 100vw;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.headerbutton {
+    display: flex;
+    width: 100vw;
+    height: 10vh;
+    justify-content: center;
+    align-items: center;
+}
+
+.emptybloc {
+    display: flex;
+    height: 40vh;
+    width: 100vw;
+}
+
+.button1 {
+    display: flex;
+    font-family: 'Merienda', cursive;
+    justify-content: center;
+    align-items: center;
+    font-size: 20px;
+    font-weight: bold;
+    width: 250px;
+    height: 55px;
+    background-color: rgb(236,219,80);
+    border: 1px solid white;
+    border-radius: 10px;
+}
+
+
