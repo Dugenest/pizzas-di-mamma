@@ -2,6 +2,9 @@
 font-family: 'Open Sans', sans-serif; */
 
 /*************** Début du Style général ***************/
+body {
+    margin: 0;
+}
 
 /*************** Fin du Style général ***************/
 
@@ -26,7 +29,29 @@ font-family: 'Open Sans', sans-serif; */
 
 
     /*************** Début du photos ***************/
-  
+.photos {
+    display: flex;
+    width: 100vw;
+    height: 100vh;
+    justify-content: center;
+    background-color: blue;
+}
+
+.pizzatitle {
+    display: flex;
+    height: 10vh;
+    width: 100vw;
+    background-color: red;
+}
+
+.pic1 {
+    display: flex;
+
+}
+
+
+
+
     /*************** Fin du photos ***************/
     
 
