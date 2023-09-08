@@ -1,9 +1,19 @@
+/* font-family: 'Merienda', cursive;
+font-family: 'Open Sans', sans-serif; */
+
+/*************** Début du Style général ***************/
 body {
     margin: 0;
     font-family: 'Merienda', cursive;
 }
 
+/*************** Fin du Style général ***************/
 
+
+
+
+
+/*************** Début du header ***************/
 .containerheader {
     display: flex;
     flex-wrap: wrap;
@@ -31,11 +41,42 @@ ul {
     width: 100vw;
 }
 
-a {
-    color: white;
-    text-decoration: none;
+a{
+    display: block;
+    width: 200px;
+    height: 40px;
+    line-height: 40px;
     font-size: 18px;
-    font-weight: bold;
+    font-family: sans-serif;
+    text-decoration: none;
+    color: white;
+    border-radius: 10px;
+    text-align: center;
+    position: relative;
+    transition: all .35s;
+    font-family: 'Merienda', cursive;
+}
+
+a span{
+    position: relative;
+    z-index: 2;
+}
+
+a:after{
+    position: absolute;
+    content: "";
+    top: 0;
+    left: 0;
+    width: 0;
+    height: 100%;
+    border-radius: 10px;
+    background: #ECDB50;
+    transition: all .35s;
+}
+
+
+a:hover:after{
+    width: 100%;
 }
 
 p {
@@ -53,3 +94,41 @@ p {
     font-size: 20vh;
     color: #ECDB50;
 }
+
+/*************** Fin du header ***************/
+
+
+
+/*************** Début du main ***************/
+  
+/*************** Fin du main ***************/
+
+
+    /*************** Début du presentation ***************/
+  
+    /*************** Fin du presentation ***************/
+
+
+    /*************** Début du photos ***************/
+  
+    /*************** Fin du photos ***************/
+    
+
+    /*************** Début du contact ***************/
+  
+    /*************** Fin du contact ***************/
+
+    
+    /*************** Début du form ***************/
+  
+    /*************** Fin du form ***************/
+    
+
+
+
+/*************** Début du footer ***************/
+  
+/*************** Fin du footer ***************/
+
+    
+
