@@ -6,25 +6,24 @@ body {
     margin: 0;
     font-family: 'Merienda', cursive;
 }
-
 /*************** Fin du Style général ***************/
+
 
 /*************** Début du header ***************/
 .containerheader {
     display: flex;
     flex-wrap: wrap;
-    width: 100vw;
+    /* width: 100vw; */
     height: 100vh;
     background-image: url(../img/pizzeria.jpeg);
     background-size: cover;
     background-repeat: no-repeat;
 }
 
-
 .header {
     display: flex;
     height: 10vh;
-    width: 100vw;
+    /* width: 100vw; */
     justify-content: center;
     align-items: center;
 }
@@ -70,7 +69,6 @@ a:after{
     transition: all .35s;
 }
 
-
 a:hover:after{
     width: 100%;
 }
@@ -95,8 +93,6 @@ header p {
 #mdemamma{
     font-size: 200px;
 }
-
-
 /*************** Fin du header ***************/
 
 /*************** Début du main ***************/
@@ -105,7 +101,7 @@ header p {
 
 /*************** Début du presentation ***************/
 .presentation {
-  width: 92vw;
+  /* width: 92vw; */
   height: 100vh;
   margin: 0 50px;
 }
@@ -121,13 +117,39 @@ header p {
 
 /*text blue du titre H1***/
 .text-blue {
-  color: #5f97c3;
+    color: #5f97c3;
 }
-    /*************** Début du photos ***************/
+p {
+    font-family: "Open Sans", sans-serif;
+  }
+  
+  .text-our-history {
+    background-color: #ecdb50;
+    width: 60%;
+    padding: 30px;
+  }
+  
+  .text-our-history p:first-child {
+    font-weight: 900;
+  }
+  .text-our-history p{
+      font-weight: lighter;
+  }
+  
+  .presentation img {
+    margin-left: 100px;
+    object-fit: cover;
+    width: 40%;
+  }
+  
+/*************** Fin du presentation ***************/
+
+
+/*************** Début du photos ***************/
 .photos {
     display: flex;
     flex-wrap: wrap;
-    width: 100vw;
+    /* width: 100vw; */
     height: 100vh;
     justify-content: center;
     align-items: center;
@@ -228,37 +250,10 @@ header p {
     background-position: 50% 50%;
     border-radius: 10px;
 }
-
-
-
-
-    /*************** Fin du photos ***************/
+/*************** Fin du photos ***************/
     
 
-p {
-  font-family: "Open Sans", sans-serif;
-}
 
-.text-our-history {
-  background-color: #ecdb50;
-  width: 60%;
-  padding: 30px;
-}
-
-.text-our-history p:first-child {
-  font-weight: 900;
-}
-.text-our-history p{
-    font-weight: lighter;
-}
-
-.presentation img {
-  margin-left: 100px;
-  object-fit: cover;
-  width: 40%;
-}
-
-/*************** Fin du presentation ***************/
 
 /*************** Début du photos ***************/
 
