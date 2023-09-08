@@ -31,22 +31,68 @@ body {
     /*************** Début du photos ***************/
 .photos {
     display: flex;
+    flex-wrap: wrap;
     width: 100vw;
     height: 100vh;
     justify-content: center;
-    background-color: blue;
+    gap: 20px;
+    background-color: rgb(95,151,195);
 }
 
 .pizzatitle {
     display: flex;
     height: 10vh;
     width: 100vw;
-    background-color: red;
+    justify-content: flex-end;
+    font-weight: bold;
+    font-size: 60px;
+    align-items: center;
+    padding-right: 130px;
+    font-family: 'Merienda', cursive;
+}
+
+.pizzatitle span {
+    color: rgb(236,219,80);
 }
 
 .pic1 {
     display: flex;
+    height: 50vh;
+    width: 20vw;
+    background-image: url(../img/pizza2.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 10px;
+}
 
+.pic2 {
+    display: flex;
+    height: 70vh;
+    width: 20vw;
+    background-image: url(../img/pizza1.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 10px;
+}
+
+.pic3 {
+    display: flex;
+    height: 40vh;
+    width: 20vw;
+    background-image: url(../img/pizza4.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 10px;
+}
+
+.pic4 {
+    display: flex;
+    height: 80vh;
+    width: 20vw;
+    background-image: url(../img/pizza3.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 10px;
 }
 
 
