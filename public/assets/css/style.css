@@ -23,7 +23,7 @@ body {
 .header {
     display: flex;
     height: 10vh;
-    /* width: 100vw; */
+    width: 100vw;
     justify-content: center;
     align-items: center;
 }
@@ -33,7 +33,7 @@ ul {
     list-style-type: none;
     justify-content: space-evenly;
     align-items: center;
-    width: 100vw;
+    width: 100%;
 }
 
 a{
