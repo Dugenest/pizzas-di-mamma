@@ -5,46 +5,69 @@ font-family: 'Open Sans', sans-serif; */
 
 /*************** Fin du Style général ***************/
 
-
-
-
-
 /*************** Début du header ***************/
 
 /*************** Fin du header ***************/
 
-
-
 /*************** Début du main ***************/
-  
+
 /*************** Fin du main ***************/
 
+/*************** Début du presentation ***************/
+.presentation {
+  width: 92vw;
+  height: 100vh;
+  margin: 0 50px;
+}
 
-    /*************** Début du presentation ***************/
-  
-    /*************** Fin du presentation ***************/
+.presentation h1 {
+  font-family: "Merienda", cursive;
+  font-size: 96px;
+}
 
+.presentation-body {
+  display: flex;
+}
 
-    /*************** Début du photos ***************/
-  
-    /*************** Fin du photos ***************/
-    
+/*text blue du titre H1***/
+.text-blue {
+  color: #5f97c3;
+}
 
-    /*************** Début du contact ***************/
-  
-    /*************** Fin du contact ***************/
+p {
+  font-family: "Open Sans", sans-serif;
+}
 
-    
-    /*************** Début du form ***************/
-  
-    /*************** Fin du form ***************/
-    
+.text-our-history {
+  background-color: #ecdb50;
+  width: 60%;
+  padding: 30px;
+}
 
+.text-our-history p:first-child {
+  font-weight: bold;
+}
 
+.presentation img {
+  margin-left: 100px;
+  object-fit: cover;
+  width: 40%;
+}
+
+/*************** Fin du presentation ***************/
+
+/*************** Début du photos ***************/
+
+/*************** Fin du photos ***************/
+
+/*************** Début du contact ***************/
+
+/*************** Fin du contact ***************/
+
+/*************** Début du form ***************/
+
+/*************** Fin du form ***************/
 
 /*************** Début du footer ***************/
-  
+
 /*************** Fin du footer ***************/
-
-    
-
