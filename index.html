@@ -7,7 +7,8 @@
     <link rel="stylesheet" href="./public/assets/css/style.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Merienda&family=Open+Sans:wght@300;500&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Merienda&family=Open+Sans:wght@300;500&display=swap"
+        rel="stylesheet">
     <title>Pizzas Di Mamma</title>
 </head>
 
@@ -16,12 +17,12 @@
     <header>
         <div class="containerheader">
             <div class="header">
-                    <ul>
-                        <li><a href="histoire"><span>Notre histoire</span></a></li>
-                        <li><a href="pizzas"><span>Nos pizzas</span></a></li>
-                        <li><a href="cheznous"><span>Venir chez nous</span></a></li>
-                        <li><a href="contact"><span>contacter</span></a></li>
-                    </ul>
+                <ul>
+                    <li><a href="histoire"><span>Notre histoire</span></a></li>
+                    <li><a href="pizzas"><span>Nos pizzas</span></a></li>
+                    <li><a href="cheznous"><span>Venir chez nous</span></a></li>
+                    <li><a href="contact"><span>contacter</span></a></li>
+                </ul>
             </div>
             <p>
                 Pizzas di <br><span id="mamma"><span id="mdemamma">M</span>amma</span>
@@ -44,14 +45,24 @@
                         Bienvenue chez "Pizzas di Mamma" !
                     </p>
                     <p>
-                        Notre histoire commence dans un petit village italien, où une famille passionnée de cuisine a ouvert ses portes pour la première fois il y a plus de trois générations. Depuis lors, notre restaurant est devenu un véritable pilier de la communauté, offrant des pizzas authentiques qui ont conquis le cœur et l'estomac de chaque client qui a franchi notre seuil.
+                        Notre histoire commence dans un petit village italien, où une famille passionnée de cuisine a
+                        ouvert ses portes pour la première fois il y a plus de trois générations. Depuis lors, notre
+                        restaurant est devenu un véritable pilier de la communauté, offrant des pizzas authentiques qui
+                        ont conquis le cœur et l'estomac de chaque client qui a franchi notre seuil.
                     </p>
                     <p>
-                        Tout a commencé avec Nonna Maria, une cuisinière extraordinaire dont les recettes familiales se sont transmises de mère en fils. Chaque pizza est une ode à la tradition, préparée avec soin et amour, en utilisant des ingrédients frais et de qualité.
+                        Tout a commencé avec Nonna Maria, une cuisinière extraordinaire dont les recettes familiales se
+                        sont transmises de mère en fils. Chaque pizza est une ode à la tradition, préparée avec soin et
+                        amour, en utilisant des ingrédients frais et de qualité.
 
-Aujourd'hui, les descendants de Nonna Maria, Luca, Sofia et Marco, perpétuent la tradition familiale avec la même passion et le même dévouement. <br> "Pizzas di Mamma" est bien plus qu'un restaurant pour nous, c'est un héritage que nous chérissons et que nous souhaitons partager avec vous.
+                        Aujourd'hui, les descendants de Nonna Maria, Luca, Sofia et Marco, perpétuent la tradition
+                        familiale avec la même passion et le même dévouement. <br> "Pizzas di Mamma" est bien plus qu'un
+                        restaurant pour nous, c'est un héritage que nous chérissons et que nous souhaitons partager avec
+                        vous.
 
-Nous vous invitons à nous rejoindre autour de la table, à déguster nos délicieuses pizzas et à devenir un membre de notre grande famille de gourmets. Venez vivre une expérience authentique de la cuisine italienne, préparée avec amour et partagée dans la chaleur de la famille.
+                        Nous vous invitons à nous rejoindre autour de la table, à déguster nos délicieuses pizzas et à
+                        devenir un membre de notre grande famille de gourmets. Venez vivre une expérience authentique de
+                        la cuisine italienne, préparée avec amour et partagée dans la chaleur de la famille.
 
                     </p>
                 </div>
@@ -76,7 +87,29 @@ Nous vous invitons à nous rejoindre autour de la table, à déguster nos délic
 
         <!-------------- Début du form -------------->
         <section class="form">
-
+            <h1>Nous <span class="text-blue">contacter</span></h1>
+            <p>Pour une réservation ou pour une prestation de traiteur ...</p>
+            <div class="form-body">
+                <img src="./public/assets/img/pizza-mixte-divers-ingredients.jpg" alt="Photo d'une pizza">
+                <form class="formula" action="get">
+                    <div class="input-field">
+                        <input type="text" id="name" placeholder="Nom" name="lastname" required>
+                    </div>
+                    <div class="input-field">
+                        <input type="text" id="firstname" placeholder="Prénom" name="firstname" required>
+                    </div>
+                    <div class="input-field">
+                        <input type="text" id="email" placeholder="Adresse email" name="email" required>
+                    </div>
+                    <div class="input-field">
+                        <input type="text" id="telephone" placeholder="Téléphone" name="telephoner">
+                    </div>
+                    <div class="input-field--full">
+                        <textarea id="message" name="message" placeholder="Message"></textarea>
+                    </div>
+                    <button class="button-send" type="submit">ENVOYER</button>
+                </form>
+            </div>
         </section>
         <!-------------- Fin du form -------------->
 
