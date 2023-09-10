@@ -295,9 +295,12 @@ footer ul {
   width: 100px;
   text-align: center;
 }
+.footer-top a {
+  color: #5f97c3;
+}
 
 .footer-social-media-wrap a:after,
-.footer-bottom a:after {
+.footer-bottom a:after, .footer-top a:after {
   transition: none;
   background: none;
 }
