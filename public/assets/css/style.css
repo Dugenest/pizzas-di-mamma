@@ -185,10 +185,11 @@ p {
   height: 400px;
 }
 
-.form input, form textarea{
+.form input,
+form textarea {
   padding: 10px;
   width: 100%;
-  box-sizing:border-box;
+  box-sizing: border-box;
 }
 
 .input-field {
@@ -197,7 +198,7 @@ p {
 
 .formula {
   width: 70%;
-  display:grid;
+  display: grid;
   grid-template-columns: 1fr 1fr;
   gap: 20px;
   margin: 50px;
@@ -206,20 +207,23 @@ p {
 #name,
 #firstname,
 #email,
-#telephone, #message {
+#telephone,
+#message {
   border: none;
 }
 
 #name,
 #firstname,
 #email,
-#telephone, #message:focus {
-  outline:none;
- }
+#telephone,
+#message:focus {
+  outline: none;
+}
 
- .input-field--full, .button-send {
+.input-field--full,
+.button-send {
   grid-column: 1/3;
- }
+}
 
 ::placeholder {
   color: #d9d9d9;
@@ -241,7 +245,7 @@ p {
   border: none;
   cursor: pointer;
   text-align: center;
-  letter-spacing:0.3em;
+  letter-spacing: 0.3em;
   width: 100%;
   height: 40px;
 }
