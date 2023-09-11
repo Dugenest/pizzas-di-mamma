@@ -91,8 +91,30 @@ Nous vous invitons à nous rejoindre autour de la table, à déguster nos délic
         <!-------------- Fin du contact -------------->
 
         <!-------------- Début du form -------------->
-        <section class="form">
-
+        <section id = "form" class="form">
+            <h1>Nous <span class="text-blue">contacter</span></h1>
+            <p>Pour une réservation ou pour une prestation de traiteur ...</p>
+            <div class="form-body">
+                <img src="./public/assets/img/pizza-mixte-divers-ingredients.jpg" alt="Photo d'une pizza">
+                <form class="formula" action="get">
+                    <div class="input-field">
+                        <input type="text" id="name" placeholder="Nom" name="lastname" required>
+                    </div>
+                    <div class="input-field">
+                        <input type="text" id="firstname" placeholder="Prénom" name="firstname" required>
+                    </div>
+                    <div class="input-field">
+                        <input type="text" id="email" placeholder="Adresse email" name="email" required>
+                    </div>
+                    <div class="input-field">
+                        <input type="text" id="telephone" placeholder="Téléphone" name="telephoner">
+                    </div>
+                    <div class="input-field--full">
+                        <textarea id="message" name="message" placeholder="Message"></textarea>
+                    </div>
+                    <button class="button-send" type="submit">ENVOYER</button>
+                </form>
+            </div>
         </section>
         <!-------------- Fin du form -------------->
 
