@@ -1,6 +1,5 @@
 /*************** Début du Style général ***************/
 body {
-<<<<<<< HEAD
   margin: 0;
 }
 
@@ -152,49 +151,6 @@ iframe{
   margin-top: 80px;
   text-align: center;
 }
-=======
-    margin: 0;
-}
-
-h2 {
-    font-family: "Merienda", cursive;
-}
-
-.yellow{
-    color: #ECDB50;
-}
-
-.blue{
-    color:#5F97C3;
-}
-
-.bg-yellow{
-    background-color: #ECDB50;
-}
-
-.bg-blue{
-    background-color: #5F97C3 ;
-}
-
-  /*************** Fin du Style général ***************/
-
-  /*************** Début du header ***************/
-
-  /*************** Fin du header ***************/
-
-  /*************** Début du main ***************/
-
-  /*************** Fin du main ***************/
-
-  /*************** Début du presentation ***************/
-
-
-  /*************** Fin du presentation ***************/
-
-  /*************** Début du photos ***************/
-
-  /*************** Fin du photos ***************/
->>>>>>> origin/footer
 
 
 
@@ -206,16 +162,6 @@ h2 {
   /*************** Début du contact ***************/
 
 
-<<<<<<< HEAD
-/*************** Début du form ***************/
-
-/*************** Fin du form ***************/
-
-/*************** Début du footer ***************/
-
-
-/*************** Fin du footer ***************/
-=======
 
 
 
@@ -238,4 +184,3 @@ a {
     color: white;
 }
   /*************** Fin du footer ***************/
->>>>>>> origin/footer
