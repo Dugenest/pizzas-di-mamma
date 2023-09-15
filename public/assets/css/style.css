@@ -1,0 +1,150 @@
+
+/*************** Début du Style général ***************/
+body {
+  margin: 0;
+}
+
+section{
+  padding: 0 5vw;
+}
+
+h2{
+  font-family: "Merienda", cursive;
+  font-weight: bold;
+  font-size: 60px;
+}
+
+@media all and (max-width: 576px){
+  h2{
+    font-size: 45px;
+  }
+}
+
+.yellow{
+  color: #ECDB50;
+}
+
+.blue{
+  color:#5F97C3;
+}
+
+.bg-yellow{
+  background-color: #ECDB50;
+}
+
+.bg-blue{
+  background-color: #5F97C3 ;
+}
+/*************** Fin du Style général ***************/
+
+/*************** Début du header ***************/
+
+/*************** Fin du header ***************/
+
+/*************** Début du main ***************/
+
+/*************** Fin du main ***************/
+
+/*************** Début du presentation ***************/
+
+
+/*************** Fin du presentation ***************/
+
+/*************** Début du photos ***************/
+
+/* Hover effect Cards "Nos Pizzas" */
+.pic1 {
+  height: 37vh;
+  width: 22vw;
+  background-image: url(../img/pizza2.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: 50% 50%;
+  border-radius: 10px;
+}
+
+.pic2 {
+  height: 50vh;
+  width: 20vw;
+  background-image: url(../img/pizza1.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: 50% 50%;
+  border-radius: 10px;
+}
+
+.pic3 {
+  height: 60vh;
+  width: 20vw;
+  background-image: url(../img/pizza4.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: 50% 50%;
+  border-radius: 10px;
+}
+
+.pic4 {
+  height: 50vh;
+  width: 22vw;
+  background-image: url(../img/pizza3.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: 50% 50%;
+  border-radius: 10px;
+}
+
+.transition {
+  display: flex;
+  transition: transform 0.5s ease-in-out;
+  align-items: end;
+  overflow: hidden;
+}
+
+.transition:hover {
+    transform: scale(1.1);
+    cursor: pointer;
+}
+
+.transition p {
+  border-radius: 0 0 10px 10px;
+  margin: 0;
+  height: 0px;
+  width: 100%;
+  visibility: hidden;
+  transition: all 1s ease-in-out;
+  background-color: rgba(0, 0, 0, 0.3);
+  backdrop-filter: blur(3px);
+  color: white;
+  font-family: "Merienda", cursive;
+  text-align: center;
+  font-size: 14px;
+}
+
+.transition:hover p {
+  height: 50%;
+  width: 100%;
+  visibility: visible;
+}
+
+@media all and (max-width: 992px){
+  .pic1, .pic2, .pic3, .pic4{
+    height: 200px;
+  }
+}
+
+/*************** Fin du photos ***************/
+
+
+
+/*************** Début du contact ***************/
+
+/*************** Fin du contact ***************/
+
+/*************** Début du form ***************/
+
+/*************** Fin du form ***************/
+
+/*************** Début du footer ***************/
+
+
+/*************** Fin du footer ***************/
