@@ -4,33 +4,22 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./public/assets/css/style.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <!-- Google Font -->
     <link href="https://fonts.googleapis.com/css2?family=Merienda&family=Open+Sans:wght@300;500&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!-- Bootstrap CSS v5.2.1 -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+    <!-- Style -->
+    <link rel="stylesheet" href="./public/assets/css/style.css">
     <title>Pizzas Di Mamma</title>
-    <script src="https://code.iconify.design/iconify-icon/1.0.8/iconify-icon.min.js"></script>
-    <script src="https://code.iconify.design/iconify-icon/1.0.7/iconify-icon.min.js"></script>
-    <script src="https://code.iconify.design/iconify-icon/1.0.7/iconify-icon.min.js"></script>
 </head>
 
 <body>
     <!-------------- Début du header -------------->
     <header>
-        <div class="containerheader">
-            <div class="header">
-                <ul>
-                    <li><a href="#presentationlink"><span>Notre histoire</span></a></li>
-                    <li><a href="#photoslink"><span>Nos pizzas</span></a></li>
-                    <li><a href="#contactlink"><span>Venir chez nous</span></a></li>
-                    <li><a href="#form"><span>Nous contacter</span></a></li>
-                </ul>
-            </div>
-            <p>
-                Pizzas di <br><span id="mamma"><span id="mdemamma">M</span>amma</span>
-            </p>
-        </div>
+
     </header>
     <!-------------- Fin du header -------------->
 
@@ -38,136 +27,105 @@
     <main>
 
         <!-------------- Début du presentation -------------->
-        <section class="presentation" id="presentationlink">
-            <h1>
-                Notre <span class="text-blue">histoire</span>
-            </h1>
-            <div class="presentation-body">
-                <div class="text-our-history">
-                    <p>
-                        Bienvenue chez "Pizzas di Mamma" !
-                    </p>
-                    <p>
-                        Notre histoire commence dans un petit village italien, où une famille passionnée de cuisine a
-                        ouvert ses portes pour la première fois il y a plus de trois générations. Depuis lors, notre
-                        restaurant est devenu un véritable pilier de la communauté, offrant des pizzas authentiques qui
-                        ont conquis le cœur et l'estomac de chaque client qui a franchi notre seuil.
-                    </p>
-                    <p>
-                        Tout a commencé avec Nonna Maria, une cuisinière extraordinaire dont les recettes familiales se
-                        sont transmises de mère en fils. Chaque pizza est une ode à la tradition, préparée avec soin et
-                        amour, en utilisant des ingrédients frais et de qualité.
-
-                        Aujourd'hui, les descendants de Nonna Maria, Luca, Sofia et Marco, perpétuent la tradition
-                        familiale avec la même passion et le même dévouement. <br> "Pizzas di Mamma" est bien plus qu'un
-                        restaurant pour nous, c'est un héritage que nous chérissons et que nous souhaitons partager avec
-                        vous.
-
-                        Nous vous invitons à nous rejoindre autour de la table, à déguster nos délicieuses pizzas et à
-                        devenir un membre de notre grande famille de gourmets. Venez vivre une expérience authentique de
-                        la cuisine italienne, préparée avec amour et partagée dans la chaleur de la famille.
-
-                    </p>
+        <section>
+            <div class="container">
+                <!-- Texte -->
+                <div class="row py-5">
+                    <h2 class="mb-5">Notre <span class="blue">histoire</span></h2>
+                    <div class="col-12 col-lg-7 p-5 bg-yellow">
+                        <p>Bienvenue chez "Pizzas di Mamma" !
+                            <br><br>
+                            Notre histoire commence dans un petit village italien, où une famille passionnée de cuisine a
+                            ouvert ses portes pour la première fois il y a plus de trois générations. Depuis lors, notre
+                            restaurant est devenu un véritable pilier de la communauté, offrant des pizzas authentiques qui
+                            ont conquis le cœur et l'estomac de chaque client qui a franchi notre seuil.
+                            <br><br>
+                            Tout a commencé avec Nonna Maria, une cuisinière extraordinaire dont les recettes familiales se
+                            sont transmises de mère en fils. Chaque pizza est une ode à la tradition, préparée avec soin et
+                            amour, en utilisant des ingrédients frais et de qualité.
+                            <br>
+                            Aujourd'hui, les descendants de Nonna Maria, Luca, Sofia et Marco, perpétuent la tradition
+                            familiale avec la même passion et le même dévouement. <br> "Pizzas di Mamma" est bien plus qu'un
+                            restaurant pour nous, c'est un héritage que nous chérissons et que nous souhaitons partager avec
+                            vous.
+                            <br><br>
+                            Nous vous invitons à nous rejoindre autour de la table, à déguster nos délicieuses pizzas et à
+                            devenir un membre de notre grande famille de gourmets. Venez vivre une expérience authentique de
+                            la cuisine italienne, préparée avec amour et partagée dans la chaleur de la famille.
+                        </p>
+                    </div>
+                    <!-- Image -->
+                    <div class="col-12 col-lg-5 p-0 ps-lg-5">
+                        <img class="h-100 w-100 object-fit-cover" src="/public/assets/img/chef-experimente-coupe-pizza-fraichement-preparee-couteau-special.jpg" alt="Photo d'un chef coupant une pizza">
+                    </div>
                 </div>
-                <img src="./public/assets/img/chef-experimente-coupe-pizza-fraichement-preparee-couteau-special.jpg"
-                    alt="photo du restaurant">
             </div>
-
         </section>
+        
         <!-------------- Fin du presentation -------------->
 
         <!-------------- Début du photos -------------->
-        <section class="photos" id="photoslink">
-            <div class="pizzatitle">
-                <p>Nos <span>pizzas</span></p>
-            </div>
-            <div class="pic1 transition">
-                <p>Un doux parfum de tomates mûres et de basilic frais emplissait la cuisine tandis que la pâte à pizza
-                    moelleuse reposait près de la fenêtre ensoleillée. La main habile du chef étala la sauce tomate
-                    maison avec amour, ajouta une généreuse couche de fromage fondant et parsema le tout d'olives noires
-                    et de champignons sautés. La pizza italienne faite maison était prête à être dégustée.</p>
-            </div>
-            <div class="pic2 transition">
-                <p>Sous la lueur tamisée d'une lampe en cuivre, la cuisine italienne prenait vie. La pâte à pizza,
-                    préparée avec soin, reposait dans un bol en céramique, attendant patiemment son tour. La chef
-                    badigeonna la base d'une sauce tomate maison, puis saupoudra généreusement de basilic frais, de
-                    fines tranches de tomates juteuses et de copeaux de parmesan affiné. La pizza italienne faite maison
-                    fut enfournée dans le four à bois, où elle acquit une croûte croustillante et une saveur
-                    inoubliable.</p>
-            </div>
-            <div class="pic3 transition">
-                <p>Dans la chaleur de la cuisine italienne, la passion pour la pizza était palpable. La pâte, pétrie à
-                    la perfection, reposait sous un linge blanc comme un trésor bien gardé. La chef étala une sauce
-                    tomate épaisse, garnit la pizza de mozzarella fraîche et d'artichauts marinés, puis ajouta des
-                    feuilles de roquette fraîchement cueillies dans le jardin. La pizza italienne faite maison, sortie
-                    du four à pierre, était une explosion de saveurs, mélangeant harmonieusement l'amour et la tradition
-                    culinaire italienne.</p>
-            </div>
-            <div class="pic4 transition">
-                <p>Sous les néons chatoyants de la cuisine italienne, la magie de la pizza prenait forme. La pâte à
-                    pizza, soigneusement préparée, reposait dans un coin, attendant son heure de gloire. La chef étala
-                    une sauce tomate maison, saupoudra de généreuses portions de mozzarella et disposa des tranches de
-                    jambon de Parme et d'artichauts grillés. La pizza italienne faite maison, cuite au four en pierre,
-                    était une explosion de saveurs qui capturait l'âme de l'Italie à chaque bouchée.</p>
-            </div>
-            </div>
 
+        <section class="bg-blue photos">
+            <div class="container">
+                <div class="row py-5 d-flex justify-content-center">
+                    <h2 class="mb-5 text-end">Nos <span class="yellow">pizzas</span></h2>
+                    <div class="row d-flex align-items-center">
+                        <!-- Image 1 -->
+                        <div class="col-6 col-lg-3 g-3 ">
+                            <div class="pic1 transition w-100">
+                                <p>Un doux parfum de tomates mûres et de basilic frais emplissait la cuisine tandis que la pâte à pizza
+                                    moelleuse reposait près de la fenêtre ensoleillée. La main habile du chef étala la sauce tomate
+                                    maison avec amour, ajouta une généreuse couche de fromage fondant et parsema le tout d'olives noires
+                                    et de champignons sautés. La pizza italienne faite maison était prête à être dégustée.</p>
+                            </div>
+                        </div>
+                        <!-- Image 2 -->
+                        <div class="col-6 col-lg-3 g-3">
+                            <div class="pic2 transition w-100">
+                                <p>Sous la lueur tamisée d'une lampe en cuivre, la cuisine italienne prenait vie. La pâte à pizza,
+                                    préparée avec soin, reposait dans un bol en céramique, attendant patiemment son tour. La chef
+                                    badigeonna la base d'une sauce tomate maison, puis saupoudra généreusement de basilic frais, de
+                                    fines tranches de tomates juteuses et de copeaux de parmesan affiné. La pizza italienne faite maison
+                                    fut enfournée dans le four à bois, où elle acquit une croûte croustillante et une saveur
+                                    inoubliable.</p>
+                            </div>
+                            
+                        </div>
+                        <!-- Image 3 -->
+                        <div class="col-6 col-lg-3 g-3">
+                            <div class="pic3 transition w-100">
+                                <p>Dans la chaleur de la cuisine italienne, la passion pour la pizza était palpable. La pâte, pétrie à
+                                    la perfection, reposait sous un linge blanc comme un trésor bien gardé. La chef étala une sauce
+                                    tomate épaisse, garnit la pizza de mozzarella fraîche et d'artichauts marinés, puis ajouta des
+                                    feuilles de roquette fraîchement cueillies dans le jardin. La pizza italienne faite maison, sortie
+                                    du four à pierre, était une explosion de saveurs, mélangeant harmonieusement l'amour et la tradition
+                                    culinaire italienne.</p>
+                            </div>
+                        </div>
+                        <!-- Image 4 -->
+                        <div class="col-6 col-lg-3 g-3">
+                            <div class="pic4 transition w-100">
+                                <p>Sous les néons chatoyants de la cuisine italienne, la magie de la pizza prenait forme. La pâte à
+                                    pizza, soigneusement préparée, reposait dans un coin, attendant son heure de gloire. La chef étala
+                                    une sauce tomate maison, saupoudra de généreuses portions de mozzarella et disposa des tranches de
+                                    jambon de Parme et d'artichauts grillés. La pizza italienne faite maison, cuite au four en pierre,
+                                    était une explosion de saveurs qui capturait l'âme de l'Italie à chaque bouchée.</p>
+                            </div>
+                        </div>
+                    </div>    
+                </div>
+            </div>
         </section>
+
         <!-------------- Fin du photos -------------->
 
         <!-------------- Début du contact -------------->
-        <section class="contact" id="contactlink">
-            <div class="leftcontact">
-                <div class="noscoordonnees">
-                    <p><span id="nos">Nos </span>Coordonnées</p>
-                </div>
-                <div class="adresse">
-                    <span id="adresseid"><i class="fa-solid fa-location-dot fa-beat-fade" style="color: #ecdb50; --fa-beat-fade-opacity: 0.67; --fa-beat-fade-scale: 1.075; --fa-animation-duration: 2s "></i>
-                        Adresse : </span>
-                    <span id="rue"><p>1, Rue Jacobin</p>               
-                    <p>Amiens</p></span>
-                </div>
-                <div class="phone">
-                    <span id="phoneid"><i class="fa-sharp fa-solid fa-phone fa-beat-fade" style="color: #ecdb50; --fa-beat-fade-opacity: 0.67; --fa-beat-fade-scale: 1.075; --fa-animation-duration: 2s "></i></i>
-                    Téléphone : </span>
-                    <span id="number"><p>01.23.32.45.21</p></span>
-                </div>
-            </div>
-            <div class="mapscontact">
-                <div class="map">
-                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2570.3299701618034!2d2.2947873768354246!3d49.89260812737217!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47e78440b0bfca3b%3A0x32c1520df281caee!2s1%20Rue%20des%20Jacobins%2C%2080000%20Amiens!5e0!3m2!1sfr!2sfr!4v1694200449945!5m2!1sfr!2sfr" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
-                </div>
-            </div>
 
-        </section>
         <!-------------- Fin du contact -------------->
 
         <!-------------- Début du form -------------->
-        <section id = "form" class="form">
-            <h1>Nous <span class="text-blue">contacter</span></h1>
-            <p>Pour une réservation ou pour une prestation de traiteur ...</p>
-            <div class="form-body">
-                <img src="./public/assets/img/pizza-mixte-divers-ingredients.jpg" alt="Photo d'une pizza">
-                <form class="formula" action="get">
-                    <div class="input-field">
-                        <input type="text" id="name" placeholder="Nom" name="lastname" required>
-                    </div>
-                    <div class="input-field">
-                        <input type="text" id="firstname" placeholder="Prénom" name="firstname" required>
-                    </div>
-                    <div class="input-field">
-                        <input type="text" id="email" placeholder="Adresse email" name="email" required>
-                    </div>
-                    <div class="input-field">
-                        <input type="text" id="telephone" placeholder="Téléphone" name="telephoner">
-                    </div>
-                    <div class="input-field--full">
-                        <textarea id="message" name="message" placeholder="Message"></textarea>
-                    </div>
-                    <button class="button-send" type="submit">ENVOYER</button>
-                </form>
-            </div>
-        </section>
+
         <!-------------- Fin du form -------------->
 
     </main>
@@ -176,53 +134,13 @@
     <!-------------- Début du footer -------------->
     <footer>
 
-        <div class="footer-top">
-            <ul class="footer-buttons-wrap">
-                <li>
-                    <a href="#presentationlink">Notre histoire</a> 
-                </li>
-                <li>
-                    <a href="#photoslink">Nos pizzas</a> 
-                    </li>
-                <li>
-                    <a href="#contactlink">Venir chez nous</a> 
-                </li>
-                <li>
-                    <a href="#form">Nous contacter</a> 
-                    </li>
-            </ul>
-            <ul class="footer-social-media-wrap">
-                <li>
-                    <a href="https://www.instagram.com/">
-                        <iconify-icon class= "icon--instagram" icon="skill-icons:instagram"></iconify-icon>
-                    </a>
-                </li>
-                <li>
-                
-                    <a href="https://www.facebook.com/">
-                        <iconify-icon class= "icon--facebook"icon="logos:facebook"></iconify-icon>
-                    </a>
-                </li>
-                <li>
-                    <a href="https://twitter.com/home?lang=fr">
-                        <iconify-icon class= "icon--twitter" icon="skill-icons:twitter"></iconify-icon>
-                    </a>
-                </li>
-            </ul>
-        </div>
-        <div class="footer-bottom">
-            <div class="footer-bottom-copyright"> © 2023 - Pizza di Mamma</div>
-            <div class="footer-bottom-links">
-                <a href="./public/assets/doc/mentionLegal.docx" target="_blank">Mentions Légales</a>
-                <a href="./public/assets/doc/CGU.docx" target="_blank">CGU</a>
-                <a href="./public/assets/doc/politiqueDeConfidentialite.docx" target="_blank">Politique de
-                    Confidentialité</a>
-            </div>
-            
-        </div>
+        
     </footer>
     <!-------------- Fin du footer -------------->
 
+    <!-- Bootstrap JavaScript Libraries -->
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.min.js" integrity="sha384-BBtl+eGJRgqQAUMxJ7pMwbEyER4l1g+O15P+16Ep7Q9Q+zqX6gSbd85u4mG4QzX+" crossorigin="anonymous"></script>
 </body>
 
 </html>
