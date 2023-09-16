@@ -1,4 +1,5 @@
 /*************** Début du Style général ***************/
+
 body {
   margin: 0;
 }
@@ -34,24 +35,13 @@ h2{
 .bg-blue{
   background-color: #5F97C3 ;
 }
+
 /*************** Fin du Style général ***************/
 
-/*************** Début du header ***************/
-
-/*************** Fin du header ***************/
-
-/*************** Début du main ***************/
-
-/*************** Fin du main ***************/
-
-/*************** Début du presentation ***************/
-
-
-/*************** Fin du presentation ***************/
-
-/*************** Début du photos ***************/
+/*************** Début des photos ***************/
 
 /* Hover effect Cards "Nos Pizzas" */
+
 .pic1 {
   height: 37vh;
   width: 22vw;
@@ -131,10 +121,7 @@ h2{
   }
 }
 
-
-/*************** Fin du photos ***************/
-
-
+/*************** Fin des photos ***************/
 
 /*************** Début du contact ***************/
 
@@ -152,35 +139,15 @@ iframe{
   text-align: center;
 }
 
+/*************** Début du footer ***************/
 
-
-
-  /*************** Début du photos ***************/
-
-  /*************** Fin du photos ***************/
-
-  /*************** Début du contact ***************/
-
-
-
-
-
-
-
-
-
-  /*************** Fin du contact ***************/
-
-  /*************** Début du form ***************/
-
-  /*************** Fin du form ***************/
-
-  /*************** Début du footer ***************/
 footer svg, footer img {
     height: 40px;
     width: 40px;
 }
+
 a {
     color: white;
 }
-  /*************** Fin du footer ***************/
+
+/*************** Fin du footer ***************/
