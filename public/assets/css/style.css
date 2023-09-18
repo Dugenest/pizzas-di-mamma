@@ -8,6 +8,10 @@ section{
   padding: 0 5vw;
 }
 
+h1{
+  font-family: "Merienda", cursive;
+}
+
 h2{
   font-family: "Merienda", cursive;
   font-weight: bold;
@@ -90,7 +94,7 @@ h2{
 }
 
 .transition:hover {
-    transform: scale(1.1);
+    transform: scale(1.05);
     cursor: pointer;
 }
 

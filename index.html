@@ -22,8 +22,8 @@
             <div class="row" class="bg-image">
                 <div class="col-12 col-md-12 px-0">
                     <nav class="navbar navbar-expand-lg bg-dark navbar-dark">
-                        <div class="container-fluid">
-                            <a class="navbar-brand" href="#"><h2 id="pizzahead">Pizza di <span class="yellow">Mamma</span></h2></a>
+                        <div class="container">
+                            <a class="navbar-brand" href="#"><h1 id="pizzahead">Pizza di <span class="yellow">Mamma</span></h1></a>
                             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                             <span class="navbar-toggler-icon"></span>
                             </button>
@@ -86,7 +86,7 @@
                     </div>
                     <!-- Image -->
                     <div class="col-12 col-lg-5 p-0 ps-lg-5">
-                        <img class="h-100 w-100 object-fit-cover" src="/public/assets/img/chef-experimente-coupe-pizza-fraichement-preparee-couteau-special.jpg" alt="Photo d'un chef coupant une pizza">
+                        <img class="h-100 w-100 object-fit-cover" src="./public/assets/img/chef-experimente-coupe-pizza-fraichement-preparee-couteau-special.jpg" alt="Photo d'un chef coupant une pizza">
                     </div>
                 </div>
             </div>
@@ -166,40 +166,43 @@
         <!-------------- Fin du contact -------------->
 
         <!-------------- Début du form -------------->
-        <form id="contact">
-            <div class="container-fluid bg-yellow">
-                <div class="row">
-                    <h2 class="footer-title">Nous <span class="blue">contacter</span></h2>
-                    <p class="footer-text">Pour une réservation ou pour une prestation de traiteur ...</p>
-                </div>
-                <div class="row m-0">    
-                    <div class="col">
-                        <input type="text" class="form-control" placeholder="Nom" aria-label="Last name">
+        <section class="bg-yellow py-5">
+            <form id="contact">
+                <div class="container-fluid ">
+                    <div class="row">
+                        <h2 class="footer-title">Nous <span class="blue">contacter</span></h2>
+                        <p class="footer-text">Pour une réservation ou pour une prestation de traiteur ...</p>
                     </div>
-                    <div class="col">
-                        <input type="text" class="form-control" placeholder="Prénom" aria-label="First name">
+                    <div class="row m-0 py-2">    
+                        <div class="col ">
+                            <input type="text" class="form-control" placeholder="Nom" aria-label="Last name">
+                        </div>
+                        <div class="col ">
+                            <input type="text" class="form-control" placeholder="Prénom" aria-label="First name">
+                        </div>
+                    </div>
+                    <div class="row m-0 py-2">    
+                        <div class="col">
+                            <input type="email" class="form-control" placeholder="Adresse email" aria-label="email">
+                        </div>
+                        <div class="col">
+                            <input type="tel" class="form-control" placeholder="Téléphone" aria-label="number">
+                        </div>
+                    </div>
+                <div class="container">
+                    <div class="row">    
+                        <div class="col mt-2">
+                            <textarea class="form-control" rows="5" placeholder="Message"></textarea>
+                        </div>
+                    </div>
+                    <div class="row justify-content-center">
+                        <button class="form-button bg-blue border-0 w-25 m-4 p-3">ENVOYER</button>
                     </div>
                 </div>
-                <div class="row m-0">    
-                    <div class="col">
-                        <input type="email" class="form-control" placeholder="Adresse email" aria-label="email">
-                    </div>
-                    <div class="col">
-                        <input type="tel" class="form-control" placeholder="Téléphone" aria-label="number">
-                    </div>
                 </div>
-            <div class="container">
-                <div class="row">    
-                    <div class="col mt-2">
-                        <textarea class="form-control" rows="5" placeholder="Message"></textarea>
-                    </div>
-                </div>
-                <div class="row justify-content-center">
-                    <button class="form-button bg-blue border-0 w-50 m-4">ENVOYER</button>
-                </div>
-            </div>
-            </div>
-        </form>
+            </form>
+        </section>
+        
         <!-------------- Fin du form -------------->
     </main>
     <!-------------- Fin du main -------------->
