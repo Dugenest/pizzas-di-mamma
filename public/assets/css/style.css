@@ -130,7 +130,7 @@ h2{
 /*************** Début du contact ***************/
 
 iframe{
-  width: 300px;
+  max-width: 80vw;
   height: 300px;
   display: block;
   margin-left: auto;
