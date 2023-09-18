@@ -146,8 +146,11 @@ footer svg, footer img {
     width: 40px;
 }
 
-a {
-    color: white;
+footer a {
+    color: black;
 }
 
+footer .mention-legal-text a {
+    color: white;
+}
 /*************** Fin du footer ***************/

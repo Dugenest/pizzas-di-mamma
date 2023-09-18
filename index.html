@@ -31,7 +31,7 @@
                             <div class="collapse navbar-collapse justify-content-end" id="navbarSupportedContent">
                                 <ul class="navbar-nav mb-2 mb-lg-0">
                                 <li class="nav-item">
-                                    <a class="nav-link active" aria-current="page" href="#"><p id="pizzahead">Notre Histoire</p></a>
+                                    <a class="nav-link active" aria-current="page" href="#notrehistoire"><p id="pizzahead">Notre Histoire</p></a>
                                 </li>
                                 <li class="nav-item">
                                     <a class="nav-link active" aria-current="page" href="#"><pid id="pizzahead">Nos pizzas</p></a>
@@ -58,7 +58,7 @@
     <!-------------- Début du main -------------->
     <main>
         <!-------------- Début du presentation -------------->
-        <section>
+        <section id="notrehistoire">
             <div class="container">
                 <!-- Texte -->
                 <div class="row py-5">
@@ -95,7 +95,7 @@
         <!-------------- Fin du presentation -------------->
 
         <!-------------- Début des photos -------------->
-        <section class="bg-blue photos">
+        <section class="bg-blue photos" id="nospizzas">
             <div class="container">
                 <div class="row py-5 d-flex justify-content-center">
                     <h2 class="mb-5 text-end">Nos <span class="yellow">pizzas</span></h2>
@@ -149,6 +149,7 @@
         <!-------------- Fin des photos -------------->
 
         <!-------------- Début du contact -------------->
+    <section id="venircheznous">
         <div class="container-fluid">
             <div class="row">
             <div id="coordonnes" class="col-12 col-md-6 px-0">
@@ -163,10 +164,11 @@
             </div>
             </div>
         </div>
+    </section>
         <!-------------- Fin du contact -------------->
 
         <!-------------- Début du form -------------->
-        <form>
+        <form id="nouscontacter">
             <div class="container-fluid bg-yellow">
                 <div class="row">
                     <h2 class="footer-title">Nous <span class="blue">contacter</span></h2>
@@ -208,28 +210,26 @@
         <div class="container-fluid">
             <div class="row">
                 <div class="col-8">
-                    <p class="footer-text">Notre histoire</p>
-                    <p class="footer-text">Nos pizzas</p>
-                    <p class="footer-text">Venir chez nous</p>
-                    <p class="footer-text">Nous contacter</p>
+                    <a class="footer-text" href="#notrehistoire"><p>Notre histoire</p></a>
+                    <a class="footer-text" href="#nospizzas"><p>Nos pizzas</p></a>
+                    <a class="footer-text" href="#venircheznous"><p>Venir chez nous</p></a>
+                    <a class="footer-text" href="#nouscontacter"><p>Nous contacter</p></a>
                 </div> 
                 <div class="col-4 flex-column">
-                    <div class="footer-social m-2"><img class="img-fluid" src="./public/assets/img/Instagram_icon.png.webp" alt="instagram"><a href="https://www.instagram.com/"></a></div>
-                    <div class="footer-social m-2"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="#3873EC" class="bi bi-facebook" viewBox="0 0 16 16">
-                        <path d="M16 8.049c0-4.446-3.582-8.05-8-8.05C3.58 0-.002 3.603-.002 8.05c0 4.017 2.926 7.347 6.75 7.951v-5.625h-2.03V8.05H6.75V6.275c0-2.017 1.195-3.131 3.022-3.131.876 0 1.791.157 1.791.157v1.98h-1.009c-.993 0-1.303.621-1.303 1.258v1.51h2.218l-.354 2.326H9.25V16c3.824-.604 6.75-3.934 6.75-7.951z"/></svg>
-                        <a href="https://www.facebook.com/"></a>
+                    <div class="footer-social m-2"><a href="https://www.instagram.com/"><img class="img-fluid" src="./public/assets/img/Instagram_icon.png.webp" alt="instagram"></a></div>
+                    <div class="footer-social m-2"><a href="https://www.facebook.com/"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="#3873EC" class="bi bi-facebook" viewBox="0 0 16 16">
+                        <path d="M16 8.049c0-4.446-3.582-8.05-8-8.05C3.58 0-.002 3.603-.002 8.05c0 4.017 2.926 7.347 6.75 7.951v-5.625h-2.03V8.05H6.75V6.275c0-2.017 1.195-3.131 3.022-3.131.876 0 1.791.157 1.791.157v1.98h-1.009c-.993 0-1.303.621-1.303 1.258v1.51h2.218l-.354 2.326H9.25V16c3.824-.604 6.75-3.934 6.75-7.951z"/></svg></a>
                     </div>
-                    <div class="footer-social m-2"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="#3F9BF0" class="bi bi-twitter" viewBox="0 0 16 16">
-                        <path d="M5.026 15c6.038 0 9.341-5.003 9.341-9.334 0-.14 0-.282-.006-.422A6.685 6.685 0 0 0 16 3.542a6.658 6.658 0 0 1-1.889.518 3.301 3.301 0 0 0 1.447-1.817 6.533 6.533 0 0 1-2.087.793A3.286 3.286 0 0 0 7.875 6.03a9.325 9.325 0 0 1-6.767-3.429 3.289 3.289 0 0 0 1.018 4.382A3.323 3.323 0 0 1 .64 6.575v.045a3.288 3.288 0 0 0 2.632 3.218 3.203 3.203 0 0 1-.865.115 3.23 3.23 0 0 1-.614-.057 3.283 3.283 0 0 0 3.067 2.277A6.588 6.588 0 0 1 .78 13.58a6.32 6.32 0 0 1-.78-.045A9.344 9.344 0 0 0 5.026 15z"/></svg>
-                        <a href="https://www.twitter.com/"></a>
+                    <div class="footer-social m-2"><a href="https://www.twitter.com/"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="#3F9BF0" class="bi bi-twitter" viewBox="0 0 16 16">
+                        <path d="M5.026 15c6.038 0 9.341-5.003 9.341-9.334 0-.14 0-.282-.006-.422A6.685 6.685 0 0 0 16 3.542a6.658 6.658 0 0 1-1.889.518 3.301 3.301 0 0 0 1.447-1.817 6.533 6.533 0 0 1-2.087.793A3.286 3.286 0 0 0 7.875 6.03a9.325 9.325 0 0 1-6.767-3.429 3.289 3.289 0 0 0 1.018 4.382A3.323 3.323 0 0 1 .64 6.575v.045a3.288 3.288 0 0 0 2.632 3.218 3.203 3.203 0 0 1-.865.115 3.23 3.23 0 0 1-.614-.057 3.283 3.283 0 0 0 3.067 2.277A6.588 6.588 0 0 1 .78 13.58a6.32 6.32 0 0 1-.78-.045A9.344 9.344 0 0 0 5.026 15z"/></svg></a>
                     </div>
                 </div>
             </div>
             <div class="row text-center bg-dark">
                 <div class="mention-legal-text"><a href="#">© - 2023 Pizza di Mamma</a></div>
-                <div class="mention-legal-text"><a href="#">Mention Légale</a></div>
-                <div class="mention-legal-text"><a href="#">CGU</a></div>
-                <div class="mention-legal-text"><a href="#">Politique de confidentialité></a></div>
+                <div class="mention-legal-text"><a href="https://entreprendre.service-public.fr/vosdroits/F31228#:~:text=Les%20mentions%20l%C3%A9gales%20sont%20les,ou%20dans%20une%20page%20d%C3%A9di%C3%A9e.">Mention Légale</a></div>
+                <div class="mention-legal-text"><a href="https://www.rocketlawyer.com/fr/fr/entreprise/utilisez-les-cgv-adaptees/document/cgu-conditions-generales-d-utilisation?gclid=CjwKCAjw6p-oBhAYEiwAgg2Pgll1vQj9U2InCCS0Q3O35NaMHdMT6wblmT2XVbriUt9PA_g9YZSHcRoCIE4QAvD_BwE">CGU</a></div>
+                <div class="mention-legal-text"><a href="https://cookiefirst.com/fr/generateur-de-politique-de-cookies-pour-votre-site-web/?gclid=CjwKCAjw6p-oBhAYEiwAgg2PghpPvGIw2X0zA-8cw4-gaSRVlmwPX-BAu9-tBrBmLYZ2girv2cmzgxoC_WwQAvD_BwE">Politique de confidentialité></a></div>
             </div>
         </div>
     </footer>
